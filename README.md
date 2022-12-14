@@ -1,14 +1,32 @@
-# APC_heart_desease
-Proyecto de APC UAB ingenieria informatica de prediccion de enfermedades cardiacas.
-
-Nom: David Feliu de la peña Vilarroig
-DATASET: League of Legends SOLO-Q Ranked Games
-URL: [kaggle](https://www.kaggle.com/datasets/bobbyscience/league-of-legends-soloq-ranked-games)
-## Objectius
+# Pràctica Kaggle APC UAB 2022-23
+### Nom: ***** ### DATASET: *****
+### URL: [kaggle](http://....)
+## Resum
+El dataset utilitza dades de...
+Tenim X dades amb N atributs. Un % d'ells és categoric / els altres són numérics i estàn normalitzats...
+### Objectius del dataset
 El objetivo principal, és, predecir si una persona tendrá una enfermedad cardiaca o no mediante la base de datos de heart_desease. Para conseguir esto, hemos aplicado 4 diferentes modelos y los hemos comparado para saber qual es el que mejor predice nuestros casos.
-
-## Resolución
+## Experiments
 Durante esta práctica emos aplicado diferentes modelos, en concreto 4 modelos diferentes y los emos comparado entre si para ver cual de los 4 nos predecia mejor. A la hora de aplicarlos, emos provado si era mejor normalizar los datos, que hiperparametros eran los que nos daban los mejores resultado y hemos validado cada uno de los modelos con ROC curves o Confussion matrix.
+### Preprocessat
+Quines proves hem realitzat que tinguin a veure amb el pre-processat? com han afectat als resultats?
+### Model
+| Model | Hiperparametres | Mètrica | Temps |
+| -- | -- | -- | -- |
+| Random Forest | 500 Trees | 80.33% | 100ms |
+| SVM | kernel: lineal C:1 | 62.3% | 200ms |
+| SVM | kernel: rbf C:1 | 70.49% | 200ms |
+| -- | -- | -- | -- |
+| Red neuronal | activation: relu epochs: 500 loss: binary crossentropy metrics: accuracy | 58% | 1500ms |
+| Decissin Tree | - | 73.77% | 200ms |
+
+## Conclusions
+El millor model que s'ha aconseguit ha estat...
+En comparació amb l'estat de l'art i els altres treballs que hem analitzat....
+## Idees per treballar en un futur
+Crec que seria interesant indagar més en...
+
+
 
 ### Model
 | Model | Parametros | Mètrica |
