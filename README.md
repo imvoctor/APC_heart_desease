@@ -13,11 +13,11 @@ Durante esta práctica emos aplicado diferentes modelos, en concreto 4 modelos d
 ### Model
 | Model | Parametros | Mètrica |
 | -- | -- || -- |
-| Random Forest | n_estimators = 500 | 80.33%|
+| Random Forest | n_estimators = 500 | 80.33% |
 | SVM | kernel = linear | 62.3% |
 | SVM | kernel = rbf | 70.49% |
-| Red Neuronal |activation = relu, loss  = binary_crossentropyk, metrics = accuracy, epochs = 500 | 83.61% |
-| Decision Tree | - | 73.77% |
+| Red Neuronal | activation = relu, loss  = binary_crossentropyk, metrics = accuracy, epochs = 500 | 83.61% |
+| Decision Tree | a | 73.77% |
 ## Conclusions
 
 ## Idees per treballar en un futur
