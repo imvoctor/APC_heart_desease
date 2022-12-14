@@ -1,5 +1,5 @@
 # Pràctica Kaggle APC UAB 2022-23
-### Nom: ***** ### DATASET: *****
+### Nom: Arnau Ruzo ### DATASET: Heart_desease
 ### URL: [kaggle](https://www.kaggle.com/datasets/zgeakyldz/heart-desease-data?resource=download))
 ## Resum
 El dataset utilitza dades de...
